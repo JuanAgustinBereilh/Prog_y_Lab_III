@@ -1,5 +1,7 @@
 package Ej3;
 
+import java.util.Objects;
+
 public class Contacto {
 
     private String nombreYapellido;
