@@ -1,9 +1,4 @@
-import Ej3.Agenda;
-import Ej3.Contacto;
-import Ej4.Estudiante;
-import Ej4.Materia;
-
-import java.util.Scanner;
+package Ej4;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,19 +14,6 @@ public class Main {
         estudiante1.agregarMateria(lengua,7);
         estudiante1.setPromedio(estudiante1.calcularPromedio());
         System.out.println(estudiante1);
-
-
-        /*Agenda agenda = new Agenda();
-        Contacto contacto1 = new Contacto("Juan Agustin Bereilh", "223-5165233", "jagustinbereilh@gmial.com");
-        Contacto contacto2 = new Contacto("Juan De los palotes", "223-4788935", "delospalotes@gmial.com");
-
-        agenda.agregarContacto(contacto1);
-        agenda.agregarContacto(contacto2);
-
-        System.out.println(agenda);
-        agenda.eliminarContacto("Juan De los palotes");
-        System.out.println(agenda);
-        agenda.modificarDatosContacto("Juan De los palotes");*/
 
     }
 }
